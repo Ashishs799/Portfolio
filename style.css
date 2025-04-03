@@ -1428,7 +1428,7 @@ footer span:nth-child(2) {
 /*  Responsiveness for footer and contact section */
 @media screen and (max-width: 560px) {
   #contact {
-    height: 100vh;
+    height: 90vh;
     position: relative;
   }
   #contheads {
@@ -1445,7 +1445,7 @@ footer span:nth-child(2) {
   }
   #contact-info {
     width: 100%;
-    margin: 0;
+    margin: 40px 0 20px 0;
     flex-direction: column-reverse;
   }
   #contact-info .information {
