@@ -96,7 +96,7 @@ i.cross {
   text-transform: uppercase;
 }
 .typed-cursor {
-	display: none;
+  display: none;
 }
 #text span {
   font-size: 13px;
@@ -276,7 +276,7 @@ ul li:hover {
 /* Responsive design for small screen */
 
 @media screen and (max-width: 560px) {
-  body{
+  body {
     overflow-x: hidden;
   }
   .container {
@@ -435,7 +435,6 @@ ul li:hover {
     width: 100%;
     position: absolute;
     bottom: 0;
-    background: red;
   }
 
   #navbar ul {
@@ -874,10 +873,6 @@ ul li:hover {
     /* background: teal; */
   }
 
-  #aboutme {
-    /* background: red; */
-  }
-
   #myinfo {
     /* background: blue; */
     width: 100%;
@@ -1183,7 +1178,7 @@ ul li:hover {
 
 @media screen and (max-width: 560px) {
   #portfolio {
-    height: 120vh;
+    height: 140vh;
   }
   #portfolio #p-heads {
     width: 100%;
@@ -1199,16 +1194,19 @@ ul li:hover {
   #workdone {
     /* background: red; */
     width: calc(100% - 20px);
-    height: 100vh;
+    height: 135vh;
     margin: 0 10px;
     flex-direction: column;
-    background: red;
-    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    justify-content: center;
+    row-gap: 10px;
+    margin-bottom: 20px;
   }
   #workdone .randomworks {
     width: 100%;
     height: 200px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     box-sizing: border-box;
   }
   .blackscreen h2 {
@@ -1250,103 +1248,102 @@ ul li:hover {
   color: #fff;
 }
 
-#contheads h2 span{
+#contheads h2 span {
   color: #86c232;
 }
 
-#contact-info{
+#contact-info {
   width: calc(100% - 180px);
   height: 65vh;
   margin: 0 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-#contact-info .information{
+#contact-info .information {
   width: 50%;
   height: 100%;
   /* background: purple; */
 }
-.information h2{
+.information h2 {
   font-size: 32px;
   text-transform: uppercase;
   color: #fff;
   margin: 10px 0 20px 0;
 }
 
-.information p{
+.information p {
   color: #cac9c9;
   width: 90%;
   margin: 20px 0 20px 0;
   font-size: 16px;
 }
 
-.information #address{
+.information #address {
   height: 50%;
   margin: 30px 0 30px 0;
 }
 
-#address .add{
+#address .add {
   display: flex;
   height: 80px;
 }
-.add .contIcns{
+.add .contIcns {
   width: 5%;
 }
-.add .contIcns i{
+.add .contIcns i {
   font-size: 32px;
   color: #86c232;
 }
-.add .extrainfo{
+.add .extrainfo {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
   margin-top: -7px;
 }
 
-.extrainfo h6{
+.extrainfo h6 {
   font-size: 16px;
   color: #fff;
   text-transform: uppercase;
 }
 
-.extrainfo span{
+.extrainfo span {
   font-size: 16px;
   color: #cac9c9;
 }
 
-.information .contactme{
+.information .contactme {
   width: 25%;
   height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.contactme i{
+.contactme i {
   font-size: 28px;
   color: #474b4f;
   transition: 0.3s ease-in;
 }
 
 .contactme i:hover {
-	color: #86c232;
+  color: #86c232;
 }
 
-#contact-info #form{
+#contact-info #form {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 10px;
   padding: 5px 10px 5px 10px;
 }
 
 #form input,
 #form textarea,
-#form #send-btn
-{
+#form #send-btn {
   height: 50px;
   border-radius: 20px;
   padding-left: 20px;
@@ -1354,27 +1351,27 @@ ul li:hover {
   color: #fff;
   background: #34373a;
   font-size: 16px;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.06), -6px -6px 20px rgba(0, 0, 0, 0.06);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.06),
+    -6px -6px 20px rgba(0, 0, 0, 0.06);
 }
 
 #form input::placeholder,
-#form textarea::placeholder{
+#form textarea::placeholder {
   text-transform: uppercase;
 }
 #form textarea:focus,
-#form input:focus
-{
+#form input:focus {
   outline: none;
   border: 1px solid #86c232;
 }
 
-#form textarea{
+#form textarea {
   resize: none;
   height: 200px;
   padding-top: 10px;
 }
 
-#form #send-btn{
+#form #send-btn {
   width: 30%;
   display: flex;
   border-radius: 30px;
@@ -1388,8 +1385,8 @@ ul li:hover {
   overflow: hidden;
 }
 
-#send-btn::after{
-  content: '';
+#send-btn::after {
+  content: "";
   position: absolute;
   width: 0;
   height: 100%;
@@ -1399,11 +1396,11 @@ ul li:hover {
   transition: 0.3s ease;
   z-index: -1;
 }
-#send-btn:hover::after{
+#send-btn:hover::after {
   width: 100%;
 }
 
-#send-btn .send{
+#send-btn .send {
   background: #86c232;
   height: 100%;
   width: 50px;
@@ -1413,7 +1410,7 @@ ul li:hover {
   align-items: center;
 }
 
-footer{
+footer {
   height: 100px;
   width: 100%;
   background: #000;
@@ -1421,16 +1418,16 @@ footer{
   padding-left: 80px;
   align-items: center;
 }
-footer span{
+footer span {
   color: #fff;
 }
-footer span:nth-child(2){
+footer span:nth-child(2) {
   margin-left: 660px;
 }
 
 /*  Responsiveness for footer and contact section */
-@media screen and (max-width: 560px){
-  #contact{
+@media screen and (max-width: 560px) {
+  #contact {
     height: 80vh;
   }
   #contheads {
@@ -1445,7 +1442,7 @@ footer span:nth-child(2){
   #contheads h2 {
     font-size: 32px;
   }
-  #contact-info{
+  #contact-info {
     width: 100%;
     margin: 0;
     flex-direction: column-reverse;
@@ -1481,10 +1478,10 @@ footer span:nth-child(2){
     font-size: 11px;
     margin: 0;
   }
-  .extrainfo span{
+  .extrainfo span {
     font-size: 10px;
   }
- 
+
   .information .contactme {
     height: 30px;
     margin-top: -25px;
@@ -1499,15 +1496,17 @@ footer span:nth-child(2){
     height: 100%;
     margin: 0 0 20px 0;
   }
-  #form input, #form textarea, #form #send-btn {
+  #form input,
+  #form textarea,
+  #form #send-btn {
     height: 40px;
     border: none;
     font-size: 10px;
   }
-  #form textarea{
+  #form textarea {
     height: 80px;
   }
-  #form #send-btn{
+  #form #send-btn {
     width: 140px;
     height: 35px;
     font-size: 10px;
@@ -1516,7 +1515,7 @@ footer span:nth-child(2){
   #send-btn .send {
     width: 38px;
   }
-  .send i{
+  .send i {
     font-size: 10px;
   }
   footer {
@@ -1528,7 +1527,6 @@ footer span:nth-child(2){
   }
   footer span {
     font-size: 10px;
-
   }
   footer span:nth-child(2) {
     margin: 0;
