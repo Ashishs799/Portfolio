@@ -102,24 +102,3 @@ cross.addEventListener("click", () => {
   navbar.style.left = "600px";
   bars.style.display = "block";
 });
-// document.addEventListener("DOMContentLoaded", function () {
-//   // Get references to the elements
-//   var navbar = document.getElementById("navbar");
-//   var links = navbar.getElementsByTagName("a");
-//   let bars = document.querySelector(".bars");
-//   let cross = document.getElementById("cancel");
-
-//   // Add click event listener to each link
-//  if(cross){
-//     for (var i = 0; i < links.length; i++) {
-//         links[i].addEventListener("click", function () {
-//           // Hide the navbar when a link is clicked
-//           navbar.style.left = "600px";
-//           bars.style.display = 'block'
-//         });
-//       }
-//  }
-//  else if(bars){
-//     navbar.style.left = "600px";
-//  }
-// });
